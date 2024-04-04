@@ -1,0 +1,27 @@
+{
+  "name": "@layer92/browser-utilities",
+  "version": "0.0.1",
+  "description": "Utility library for the browser.",
+  "main": "compiled/esm/index.js",
+  "modules": "compiled/commonjs/index.js",
+  "types": "compiled/esm/index.d.ts",
+  "files": [
+    "compiled/esm"
+  ],
+  "scripts": {},
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layer92/browser-utilities-ts.git"
+  },
+  "author": "layer92",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/layer92/browser-utilities-ts/issues"
+  },
+  "homepage": "https://github.com/layer92/browser-utilities-ts#readme",
+  "dependencies": {
+    "@layer92/core": "file:../core-ts",
+    "typescript": "5.2.2"
+  }
+}

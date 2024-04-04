@@ -1,0 +1,3 @@
+rm -r compiled
+tsc
+tsc --module commonjs --outDir compiled/commonjs

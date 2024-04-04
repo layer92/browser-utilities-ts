@@ -1,0 +1,2 @@
+/** Makes the canvas become the same as this image (the width/height of the canvas also become the width/height of the image). Will also downscale the image at the same time, if the image is bigger than the provided max width/height (this situation will also cause the width/height of the canvas to become the downscaled size). */
+export declare function SetCanvasImage_MaybeDownscale(canvas: HTMLCanvasElement, image: HTMLImageElement, maxCanvasWidth?: number, maxCanvasHeight?: number): Promise<void>;
