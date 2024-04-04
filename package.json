@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/layer92/browser-utilities-ts#readme",
   "dependencies": {
-    "@layer92/core": "file:../core-ts",
+    "@layer92/core": "git+https://github.com/layer92/core-ts.git",
     "typescript": "5.2.2"
   }
 }
