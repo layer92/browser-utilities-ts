@@ -1,6 +1,6 @@
 {
   "name": "@layer92/browser-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility library for the browser.",
   "main": "compiled/esm/index.js",
   "modules": "compiled/commonjs/index.js",
