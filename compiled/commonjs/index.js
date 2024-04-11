@@ -22,6 +22,8 @@ __exportStar(require("./src/canvases/SetCanvasImage"), exports);
 __exportStar(require("./src/canvases/SetCanvasImageData"), exports);
 __exportStar(require("./src/client/DoesBrowserPreferDarkMode"), exports);
 __exportStar(require("./src/files/BlobToImageAsync"), exports);
+__exportStar(require("./src/files/BlobToArrayBufferAsync"), exports);
+__exportStar(require("./src/files/BlobToTextAsync"), exports);
 __exportStar(require("./src/files/MaybeMakeDownscaledImageBlobAsync"), exports);
 __exportStar(require("./src/files/PromptFileDownloadByUrl"), exports);
 __exportStar(require("./src/files/PromptFileOpen_GetFileAsync"), exports);
