@@ -10,4 +10,5 @@ export * from "./src/files/BlobToTextAsync";
 export * from "./src/files/MaybeMakeDownscaledImageBlobAsync";
 export * from "./src/files/PromptFileDownloadByUrl";
 export * from "./src/files/PromptFileOpen_GetFileAsync";
+export * from "./src/files/PromptFilesOpen_GetFilesAsync";
 export * from "./src/images/MaybeMakeDownscaledImageData";

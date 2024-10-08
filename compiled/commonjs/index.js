@@ -27,4 +27,5 @@ __exportStar(require("./src/files/BlobToTextAsync"), exports);
 __exportStar(require("./src/files/MaybeMakeDownscaledImageBlobAsync"), exports);
 __exportStar(require("./src/files/PromptFileDownloadByUrl"), exports);
 __exportStar(require("./src/files/PromptFileOpen_GetFileAsync"), exports);
+__exportStar(require("./src/files/PromptFilesOpen_GetFilesAsync"), exports);
 __exportStar(require("./src/images/MaybeMakeDownscaledImageData"), exports);
