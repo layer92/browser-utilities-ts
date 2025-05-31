@@ -1,4 +1,4 @@
-export function PromptUrlDownload(url, options) {
+export function PromptDownloadUrl(url, options) {
     const anchor = document.createElement("a");
     if (options?.suggestedFileName) {
         anchor.download = options?.suggestedFileName;
@@ -12,5 +12,5 @@ export function PromptUrlDownload(url, options) {
 }
 /** DEPRECATED */
 export function PromptFileDownloadByUrl(url, suggestedFileName) {
-    PromptUrlDownload(url, { suggestedFileName });
+    PromptDownloadUrl(url, { suggestedFileName });
 }

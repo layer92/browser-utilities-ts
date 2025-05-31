@@ -1,4 +1,4 @@
-export declare function PromptUrlDownload(url: string, options?: {
+export declare function PromptDownloadUrl(url: string, options?: {
     suggestedFileName?: string;
 }): void;
 /** DEPRECATED */

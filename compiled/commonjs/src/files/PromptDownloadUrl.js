@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PromptFileDownloadByUrl = exports.PromptUrlDownload = void 0;
-function PromptUrlDownload(url, options) {
+exports.PromptFileDownloadByUrl = exports.PromptDownloadUrl = void 0;
+function PromptDownloadUrl(url, options) {
     const anchor = document.createElement("a");
     if (options?.suggestedFileName) {
         anchor.download = options?.suggestedFileName;
@@ -13,9 +13,9 @@ function PromptUrlDownload(url, options) {
     anchor.click();
     document.body.removeChild(anchor);
 }
-exports.PromptUrlDownload = PromptUrlDownload;
+exports.PromptDownloadUrl = PromptDownloadUrl;
 /** DEPRECATED */
 function PromptFileDownloadByUrl(url, suggestedFileName) {
-    PromptUrlDownload(url, { suggestedFileName });
+    PromptDownloadUrl(url, { suggestedFileName });
 }
 exports.PromptFileDownloadByUrl = PromptFileDownloadByUrl;
