@@ -5,5 +5,5 @@ export function PromptDownloadPlaintext(plaintext:string,options?:{
     suggestedFileName?:string
 }){
     const blob = new Blob([plaintext],{type:options?.mimeType??"text/*"});
-    PromptDownloadBlob(blob);
+    PromptDownloadBlob(blob,{suggestedFileName:options?.suggestedFileName});
 }
