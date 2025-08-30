@@ -4,6 +4,7 @@ export * from "./src/canvases/SetCanvasImage_MaybeDownscale";
 export * from "./src/canvases/SetCanvasImage";
 export * from "./src/canvases/SetCanvasImageData";
 export * from "./src/client/DoesBrowserPreferDarkMode";
+export * from "./src/client/LocalStorageValue";
 export * from "./src/files/BlobToImageAsync";
 export * from "./src/files/BlobToArrayBufferAsync";
 export * from "./src/files/BlobToTextAsync";
