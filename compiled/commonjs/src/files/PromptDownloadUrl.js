@@ -6,6 +6,7 @@ function PromptDownloadUrl(url, options) {
     if (options?.suggestedFileName) {
         anchor.download = options?.suggestedFileName;
     }
+    anchor.target = "_blank";
     anchor.href = url;
     // in most modern browsers, you dont need to add it to the body first, but doing so for backward-compatibility
     anchor.style.display = "none";
