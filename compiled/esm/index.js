@@ -16,3 +16,4 @@ export * from "./src/files/PromptDownloadPlaintext";
 export * from "./src/files/PromptFileOpen_GetFileAsync";
 export * from "./src/files/PromptFilesOpen_GetFilesAsync";
 export * from "./src/images/MaybeMakeDownscaledImageData";
+export * from "./src/Cookies";
